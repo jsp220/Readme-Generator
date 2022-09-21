@@ -35,5 +35,5 @@ These are testing instructions.
 
 ## Questions <a name="questions"></a>
 
-GitHub: [https://github.com/jsp220] (https://github.com/jsp220)
+GitHub: [https://github.com/jsp220](https://github.com/jsp220)
 Email: jsp220@gmail.com
