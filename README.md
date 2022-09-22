@@ -2,6 +2,8 @@
 
 ## Description
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A script that generates a professional README.md file using command line prompts.
 
 ## Usage
@@ -12,6 +14,7 @@ Download the index.js file from this repo into a designated folder. Enter the fo
 node index.js
 ```
 
+![Screenshot](assets/images/screenshot.png)
 <img src='assets/images/screenshot.png' />
 
 
