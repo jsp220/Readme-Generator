@@ -59,7 +59,7 @@ ${usage}
 
 ## License <a name="license"></a>
 
-
+Licensed under the ${license} license.
 
 ## Contributing <a name="contributing"></a>
 
@@ -71,7 +71,9 @@ ${test}
 
 ## Questions <a name="questions"></a>
 
-GitHub: [https://github.com/${user}] (https://github.com/${user})
+For additional questions, I can be reached at:
+
+GitHub: [https://github.com/${user}](https://github.com/${user}) <br>
 Email: ${email}`, 
         (err) => err ? console.log(err) : console.log('README.md successfully generated in /generated-readme')
     );
