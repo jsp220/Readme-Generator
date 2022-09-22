@@ -30,7 +30,23 @@ function writeToFile(fileName, data) {
         item5: test, 
         item6: license, 
         item7: user, 
-        item8: email } = data;
+        item8: email 
+    } = data;
+
+    let licBadge;
+    switch (license) {
+        case "MIT":
+            licBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+            break;
+        case "GPLv2":
+            licBadge = "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
+            break;
+        case "Apache":
+            licBadge = "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+            break;
+        default:
+            licBadge = "";
+    };
     
     fs.writeFile(
         `./generated-readme/${fileName}`, 
@@ -38,7 +54,7 @@ function writeToFile(fileName, data) {
 
 ## Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+${licBadge}
 
 ${desc}
 
@@ -83,6 +99,8 @@ Email: ${email}`,
 
 // TODO: Create a function to initialize app
 function init() {
+    console.clear();
+    
     console.log(`\x1b[36m### Professional README.md Generator ###\x1b[0m\n`)
     
     let prompts = [];

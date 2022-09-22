@@ -14,11 +14,15 @@ Download the index.js file from this repo into a designated folder. Enter the fo
 node index.js
 ```
 
-![Screenshot](assets/images/screenshot.png)
-<img src='assets/images/screenshot.png' />
+![Screenshot](assets/images/screenshot1.png)
 
+Follow the prompts to enter basic information for your project. 
 
-Follow the prompts to enter basic information for your project. at the end of the prompts, a readme file will be generated in the generated.readme folder under the name README_<your_project_name>.md.
+![Screenshot](assets/images/screenshot2.png)
+
+at the end of the prompts, a readme file will be generated in the generated-readme folder under the name README_<your_project_name>.md.
+
+![Screenshot](assets/images/screenshot3.png)
 
 ## License
 
